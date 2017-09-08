@@ -1,4 +1,7 @@
 block header
-    h1= title
+    
 block content
+    h1= title
     p Nothing now
+        each elm in content
+            p=elm
